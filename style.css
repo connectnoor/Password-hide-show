@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #26095C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.container input{
+    width: 300px;
+    font-size: 1.7rem;
+    padding: 5px;
+    border: none;
+}
+/* .container input:active{
+    
+} */
+.container img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+@media only screen and (max-width: 600px){
+    /* body{
+        padding: 0px 10px;
+    } */
+    .container {
+        width: 70%;
+    }
+    .container input{
+        width: 100%;
+    }
+}
